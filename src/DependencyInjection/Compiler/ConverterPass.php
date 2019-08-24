@@ -24,6 +24,5 @@ class ConverterPass implements CompilerPassInterface
             $reference = [new Reference($id)];
             $definition->addMethodCall('addConverter', $reference);
         }
-        dump($definition->getMethodCalls());
     }
 }
