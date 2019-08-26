@@ -8,7 +8,7 @@ use App\Service\Converter\ConverterInterface;
 
 class Conversion
 {
-    CONST SERVICE_TAG = 'tst.conversion';
+    CONST SERVICE_TAG = Conversion::class;
 
     private $converters;
 
